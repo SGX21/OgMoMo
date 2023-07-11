@@ -1,0 +1,136 @@
+.why{
+    padding: 10%;
+    background-color: #282828;
+}
+
+.actucal>img{
+    width: 100vw;
+}
+.why>h1{
+    color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 100px;
+    text-decoration: none;
+    user-select: none;
+    font-weight: 100;
+}
+
+.why>p1{
+    color: #c0c0c0;
+    font-family: Jomhuria;
+    font-size: 50px;
+    text-decoration: none;
+    user-select: none;
+    font-weight: 100;
+}
+
+.why>h2{
+    color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 50px;
+    text-decoration: none;
+    user-select: none;
+    font-weight: 100;
+
+}
+.why>p2{
+    color: #c0c0c0;
+    font-family: Jomhuria;
+    font-size: 40px;
+    text-decoration: none;
+    user-select: none;
+    font-weight: 100;
+
+}
+
+@media only screen and (max-width:900px)
+{
+    .why>h1{
+        font-size: 55px;
+    }
+    
+    .why>p1{
+        font-size: 20px;
+    }
+    
+    .why>h2{
+        font-size: 35px;
+    }
+    .why>p2{
+        font-size: 20px;
+    }
+}
+
+
+/* form */
+
+.one{
+    padding: 5%;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.one label{
+    display: block;
+    color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 40px;
+    /* padding: 4%; */
+    text-decoration: none;
+    user-select: none;
+}
+
+.one input{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #ffffff;
+    width: 50vw;
+    height: 3vw;
+}
+
+.one textarea
+{   
+    width: 50vw;
+    height: 30vh;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    resize:none ;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 40px;
+    text-decoration: none;
+    user-select: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.btn:hover{
+    outline: none;
+    border: none;
+    background-color:  #282828;
+    transition: 0.4s;
+    color: #ffffff;
+}
+@media only screen and (max-width:900px) {
+    .one input{
+        height: 6vw;
+        font-size: 10px;
+    }
+    
+}
+
+

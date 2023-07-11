@@ -1,0 +1,145 @@
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.tibetan{
+    background-color: #ffffff;
+    width: 80vw;
+}
+
+.tibetan>h1{
+    color: #282828;
+    font-family: Jomhuria;
+    font-size: 50px;
+    gap : 2rem; 
+    text-decoration: none;
+    text-align: center;
+}
+
+.chinese{
+    background-color: #ffffff;
+    width: 80vw;
+}
+
+.chinese>h1{
+    color: #282828;
+    font-family: Jomhuria;
+    font-size: 50px;
+    gap : 2rem; 
+    text-decoration: none;
+    text-align: center;
+}
+.veg>h3{
+    color: #ffff;
+    font-family: Jomhuria;
+    font-size: 50px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.paneer>h3{
+    color: #ffff;
+    font-family: Jomhuria;
+    font-size: 50px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+ .nonveg>h3{
+    color: #ffff;
+    font-family: Jomhuria;
+    font-size: 50px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.platter>h3{
+    color: #ffff;
+    font-family: Jomhuria;
+    font-size: 50px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+.card{
+    background-color: #282828;
+    border-radius: 1rem;
+    width: 15vw;
+    margin-bottom: 1rem;
+}
+.card > img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.card > h2{
+    color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.veg{
+    background-color: #282828;
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nonveg{
+    background-color: #282828;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.paneer{
+    background-color: #282828;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.platter{
+    background-color: #282828;
+    padding: 5%;
+    padding-bottom: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.all{
+    background-color: #282828;
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1111px){
+    .card > h2{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1065px){
+    .card{
+        width: 22.5vw;
+    }
+}
+
+
+@media only screen and (max-width: 899px){
+    .card{
+        width: 30vw;
+    }
+    .card > h2{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .card > h2{
+        font-size: 13.5px;
+    }
+}

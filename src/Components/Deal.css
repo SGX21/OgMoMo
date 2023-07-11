@@ -1,0 +1,93 @@
+.log{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.login_button{
+    padding: 5%;
+    border-radius: 1rem;
+    width: 40vw;
+    background-image: url("../../public/picsrc/btn.jpg");
+    background-repeat: no-repeat no-repeat;
+}
+
+.log_text>h1{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 40px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding-top: 5%;
+    font-weight: 50;
+}
+
+.signup{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 30px;
+    text-decoration: none;
+    user-select: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.signup:hover{
+    outline: none;
+    border: none;
+    background-color:  #282828;
+    transition: 0.4s;
+    color: #ffffff;
+}
+.signup>img{
+    height: 70px;
+}
+
+
+@media only screen and (max-width : 900px)
+{
+    .log{
+        flex-direction: column;
+    }
+    .login_button{
+        width: 80vw;
+        height: 30vh;
+    }
+    .phone_div{
+        text-align: center;
+    }
+}
+@media only screen and (max-width : 530px)
+{
+    .phone_div>img{
+        height: 350px;;
+    }
+}
+@media only screen and (max-width : 430px)
+{
+    .phone_div>img{
+        height: 300px;;
+    }
+}
+@media only screen and (max-width : 360px)
+{
+    .phone_div>img{
+        height: 250px;;
+    }
+}
+@media only screen and (max-width : 310px)
+{
+    .phone_div>img{
+        height: 200px;;
+    }
+}
+@media only screen and (max-width : 240px)
+{
+    .phone_div>img{
+        height: 150px;;
+    }
+}

@@ -1,0 +1,187 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+}
+.container2{
+    display: flex;
+}
+
+.heading{
+    color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 50px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    user-select: none;
+    text-align: center;
+}
+
+.left{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    width: 50vw;
+
+}
+.right{
+    padding: 10%;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.Phone>img, .Mail>img,.Location>img{
+    height: 50px;
+    user-select: none;
+    background-color: #ffff;
+
+}
+
+.Phone, .Mail, .Location {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 3vh;
+    height: 7vh;
+    width: 30vw;
+    padding: 3%;
+    text-decoration: none;
+}
+a:link { text-decoration: none; }
+
+
+.Phone >h1 ,.Mail >h1, .Location >h1{
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 40px;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    /* padding: 3%;  */
+    overflow:hidden;
+
+}
+
+@media only screen and (max-width: 900px){
+    hr{
+        display: none;
+    }
+    .Phone, .Mail, .Location{
+        width: 80vw;
+        transition: 0.2s ease ;
+    }
+   
+    .Phone>img, .Mail>img,.Location>img{
+        height: 40px;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .Phone >h1 ,.Mail >h1, .Location >h1{
+        font-size: 30px;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 465px){
+    .Phone >h1 ,.Mail >h1, .Location >h1{
+        font-size: 26px;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 355px){
+    .Phone >h1 ,.Mail >h1, .Location >h1{
+        font-size: 22px;
+        padding: 3%;
+    }
+    .Phone, .Mail, .Location{
+        overflow:hidden ;
+    }
+}
+
+
+
+
+/* form */
+
+
+label{
+    display: block;
+    color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 40px;
+    /* padding: 4%; */
+    text-decoration: none;
+    user-select: none;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 2vw;
+}
+
+textarea
+{   
+    width: 15vw;
+    height: 15vh;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    resize:none ;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Jomhuria;
+    font-size: 40px;
+    text-decoration: none;
+    user-select: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.btn:hover{
+    outline: none;
+    border: none;
+    background-color:  #282828;
+    transition: 0.4s;
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 900px){
+    input{
+        min-width: 60vw;
+        max-width: 70vw;
+        height: 6vw;
+        font-size: 15px;
+    }
+    textarea{
+        min-width: 60vw;
+        max-width: 70vw;
+        height: 30vh;
+        font-size: 15px;
+    }
+}
+

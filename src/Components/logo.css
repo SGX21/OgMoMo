@@ -1,0 +1,6 @@
+.logo{
+    height: 70%;
+    user-select:none;
+    display: flex;
+    cursor: pointer;
+}
